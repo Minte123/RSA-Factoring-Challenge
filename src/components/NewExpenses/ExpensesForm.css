@@ -1,0 +1,51 @@
+.new-expense__controls {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* box-shadow: 0 2px 25px rgba(113, 119, 116, 0.616);
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 12px;
+  background-color: #ffffffc9; */
+}
+/* .new-expense__control {
+  font-family: cursive;
+  padding: 1.5rem;
+  margin: 1rem 2rem;
+  justify-content: space-evenly;
+  color: hsl(210, 100%, 2%);
+  font-size: 1rem;
+  font-weight: 200;
+  flex: 1;
+  margin: 0 1rem;
+  font-weight: bolder;
+} */
+
+.new-expense__controls {
+  display: flex;
+  font-family: cursive;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-expense__actions {
+  text-align: right;
+  font-family: cursive;
+}
