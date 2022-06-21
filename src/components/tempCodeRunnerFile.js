@@ -1,1 +1,0 @@
-<div className="expense-date__month">{month}</div>
